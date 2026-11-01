@@ -2,8 +2,8 @@
 
 ## Student Details
 
-- **Name:** Varun Kumar
-- **Section:** CSE FSD 2B
+- **Name:** Trisha
+- **Section:** CSE-2D
 - **Course:** Backend Development Fundamentals
 - **Lab Number:** 01
 

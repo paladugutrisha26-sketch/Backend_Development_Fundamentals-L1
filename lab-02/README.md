@@ -2,13 +2,13 @@
 
 ## Student Information
 
-- **Name:** Uppari Varun Kumar
-- **Registration Number:** 252U1R7094
-- **Section:** CSE (FSD)-2B
+- **Name:** Trisha
+- **Registration Number:** 252U1R1176
+- **Section:** CSE 2D
 - **Course:** Backend Development Fundamentals
 - **Lab Number:** Lab 02
-- **Faculty:** Joel Prashanth D
-- **Repository:** [https://github.com/varunkumaruppari/Backend_Development_Fundamentals-L1](https://github.com/varunkumaruppari/Backend_Development_Fundamentals-L1)
+- **Faculty:** SAI SHIVA TEJA .MR
+- **Repository:** [https://github.com/paladugutrisha26-sketch/Backend_Development_Fundamentals-L1](https://github.com/paladugutrisha26-sketch/Backend_Development_Fundamentals-L1)
 
 ---
 
