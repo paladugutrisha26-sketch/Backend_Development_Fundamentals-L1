@@ -1,7 +1,7 @@
 /**
  * Lab 2: SQLite Database and CRUD Routes
  * Backend Development Fundamentals · Year II Term II · Aurora
- * Faculty: Joel Prashanth D
+ * Faculty: Sai Siva Theja
  * Student Name: Paladugu Trisha
  * Registration Number: 252U1R1176
  * Section: CSE-2D
@@ -102,7 +102,7 @@ app.get("/", (req, res) => {
       regNo: "252U1R1176",
       section: "CSE-2D",
     },
-    faculty: "Joel Prashanth D",
+    faculty: "Sai Siva Theja",
     course: "Backend Development Fundamentals",
     endpoints: [
       { method: "GET", path: "/books/", description: "Retrieve all books" },

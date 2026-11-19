@@ -3,7 +3,7 @@
 **Student:** Paladugu Trisha  
 **Registration Number:** 252U1R1176  
 **Section:** CSE-2D  
-**Faculty:** Joel Prashanth D  
+**Faculty:** Sai Siva Theja  
 **Course:** Backend Development Fundamentals · Year II Term II · Aurora  
 
 ---

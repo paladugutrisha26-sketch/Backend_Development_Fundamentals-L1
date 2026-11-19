@@ -2,7 +2,7 @@
 
 **Paladugu Trisha · 252U1R1176 · CSE-2D**
 
-- **Faculty:** Joel Prashanth D
+- **Faculty:** Sai Siva Theja
 - **Course:** Backend Development Fundamentals · Year II Term II · Aurora
 - **Module:** SQLite and relational database operations
 - **Repository:** [https://github.com/paladugutrisha26-sketch/Backend_Development_Fundamentals-L1](https://github.com/paladugutrisha26-sketch/Backend_Development_Fundamentals-L1)
