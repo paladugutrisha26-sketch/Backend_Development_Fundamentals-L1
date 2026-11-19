@@ -1,20 +1,12 @@
-# Lab 2: SQLite Database and CRUD Routes
+# Lab 2: SQLite database and CRUD routes
 
-## Student Information
+**Paladugu Trisha · 252U1R1176 · CSE-2D**
 
-- **Name:** Trisha
-- **Registration Number:** 252U1R1176
-- **Section:** CSE 2D
-- **Course:** Backend Development Fundamentals
-- **Lab Number:** Lab 02
-- **Faculty:** SAI SHIVA TEJA .MR
+- **Faculty:** Joel Prashanth D
+- **Course:** Backend Development Fundamentals · Year II Term II · Aurora
+- **Module:** SQLite and relational database operations
 - **Repository:** [https://github.com/paladugutrisha26-sketch/Backend_Development_Fundamentals-L1](https://github.com/paladugutrisha26-sketch/Backend_Development_Fundamentals-L1)
-
----
-
-## Live Link
-
-- **Live URL:** https://backend-fundamentals-lab-02.onrender.com
+- **Live Link:** [https://backend-fundamentals-lab-02.onrender.com](https://backend-fundamentals-lab-02.onrender.com)
 
 ---
 
@@ -425,46 +417,46 @@ A pre-configured Postman collection is provided at `lab-02/postman_collection.js
 1. Open Postman.
 2. Click **Import** (top left).
 3. Select `lab-02/postman_collection.json`.
-4. The collection **Lab 2 - SQLite Database and CRUD Routes (Varun Kumar)** will appear with all 8 requests ready to execute against `http://localhost:3000`.
+4. The collection **Lab 2 - SQLite Database and CRUD Routes (Paladugu Trisha)** will appear with all 8 requests ready to execute against `http://localhost:3000`.
 
 ---
 
-## Screenshots (Student Checklist)
+## Screenshots
 
-The placeholders below reference the screenshots you must capture using Postman and save into the `lab-02/screenshots/` folder.
+The screenshots below verify all CRUD endpoints and database state:
 
 ### 1. GET All Books (`/books/`)
-Displays all books retrieved from the SQLite database.
+Displays all books retrieved from the SQLite database with status `200 OK`.
 
 ![GET All Books](screenshots/01-get-all-books.png)
 
 ### 2. GET Book by ID (`/books/1/`)
-Displays a single book record with ID 1.
+Displays a single book record with ID 1 with status `200 OK`.
 
-![GET Book by ID](screenshots/02-get-book-by-id)
+![GET Book by ID](screenshots/02-get-book-by-id.png)
 
 ### 3. POST Add New Book (`/books/`)
-Displays the 201 Created response containing `message` and `bookId`.
+Displays the `201 Created` response containing confirmation `message` and the newly generated `bookId`.
 
-![POST Add Book](screenshots/03-post-add-book)
+![POST Add Book](screenshots/03-post-add-book.png)
 
-### 4. PUT Update Book (`/books/11/`)
-Displays the 200 OK response confirming the book was updated.
+### 4. PUT Update Book (`/books/12/`)
+Displays the `200 OK` response confirming the book record was updated.
 
 ![PUT Update Book](screenshots/04-put-update-book.png)
 
-### 5. DELETE Book (`/books/11/`)
-Displays the 200 OK response confirming the book was deleted.
+### 5. DELETE Book (`/books/12/`)
+Displays the `200 OK` response confirming the book was deleted.
 
 ![DELETE Book](screenshots/05-delete-book.png)
 
 ### 6. 404 Not Found Error Handling (`/books/999/`)
-Displays proper 404 error handling for a nonexistent book.
+Displays proper `404 Not Found` error handling for a nonexistent book ID.
 
 ![404 Not Found](screenshots/06-404-not-found.png)
 
 ### 7. SQLite Database View / CLI Verification
-Displays the database records in the SQLite CLI or DB Browser.
+Displays the SQLite table records verified directly from the SQLite CLI.
 
 ![Database View](screenshots/07-database-view.png)
 

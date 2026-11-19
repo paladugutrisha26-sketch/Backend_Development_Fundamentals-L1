@@ -4,7 +4,7 @@
 
 const http = require("http");
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = process.env.BASE_URL || "http://127.0.0.1:3000";
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 

@@ -1,8 +1,10 @@
 /**
  * Lab 2: SQLite Database and CRUD Routes
- * Student: Uppari Varun Kumar
- * Registration Number: 252U1R7094
- * Section: CSE (FSD)-2B
+ * Backend Development Fundamentals · Year II Term II · Aurora
+ * Faculty: Joel Prashanth D
+ * Student Name: Paladugu Trisha
+ * Registration Number: 252U1R1176
+ * Section: CSE-2D
  *
  * Technologies: Node.js, Express.js, SQLite (sqlite & sqlite3), Nodemon
  */
@@ -96,10 +98,12 @@ app.get("/", (req, res) => {
   res.status(200).json({
     message: "Welcome to Bookstore CRUD API - Lab 2",
     student: {
-      name: "Uppari Varun Kumar",
-      regNo: "252U1R7094",
-      section: "CSE (FSD)-2B",
+      name: "Paladugu Trisha",
+      regNo: "252U1R1176",
+      section: "CSE-2D",
     },
+    faculty: "Joel Prashanth D",
+    course: "Backend Development Fundamentals",
     endpoints: [
       { method: "GET", path: "/books/", description: "Retrieve all books" },
       { method: "GET", path: "/books/:bookId/", description: "Retrieve a specific book by ID" },
